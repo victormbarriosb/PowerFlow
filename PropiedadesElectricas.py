@@ -7,8 +7,8 @@ class Potencia:
     def __add__(self, other):
         return Potencia(self.Activa + other.Activa, self.Reactiva + other.Reactiva)
 
-    def imprimir(self):
-        print("Activa %.2f, Reactiva %.2f" % (self.Activa, self.Reactiva))
+    #def imprimir(self):
+    #    print("Activa %.2f, Reactiva %.2f" % (self.Activa, self.Reactiva))
 
 
 class Impedancia:

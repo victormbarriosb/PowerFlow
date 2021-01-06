@@ -24,8 +24,12 @@ class Linea:
 
 
 class SEP:
+
     Nodos = []
     Lineas = []
+
+    def __init__(self):
+        pass
 
     def AgregarNodo(self, barra):
         self.Nodos.append(barra)
